@@ -1,0 +1,14 @@
+# This is a placeholder for the Farm Controller item texture
+# In a real implementation, this would be a PNG image file
+# The texture should be 16x16 pixels for the item icon
+# 
+# Texture description:
+# - Miniature version of the block texture
+# - Wood-like base with redstone circuits
+# - Chest elements visible
+# - Distinctive icon for inventory
+#
+# File should be saved as: /app/farm_automation_RP/textures/items/farm_controller.png
+# 
+# For now, this is a text placeholder that would need to be replaced
+# with an actual PNG image file in a real Minecraft addon.
