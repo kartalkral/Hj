@@ -1,0 +1,14 @@
+# This is a placeholder for the Farm Controller block texture
+# In a real implementation, this would be a PNG image file
+# The texture should be 16x16 pixels for the block faces
+# 
+# Texture description:
+# - Wood-like base texture similar to crafting table
+# - Redstone circuit patterns on top
+# - Chest-like elements on sides
+# - Glowing elements to indicate automation
+#
+# File should be saved as: /app/farm_automation_RP/textures/blocks/farm_controller.png
+# 
+# For now, this is a text placeholder that would need to be replaced
+# with an actual PNG image file in a real Minecraft addon.
