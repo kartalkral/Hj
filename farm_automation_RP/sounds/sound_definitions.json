@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.93",
+  "sound_definitions": {
+    "farm_automation.controller.activate": {
+      "category": "block",
+      "sounds": [
+        "sounds/block/wood/break1",
+        "sounds/block/wood/break2"
+      ]
+    },
+    "farm_automation.controller.working": {
+      "category": "block",
+      "sounds": [
+        "sounds/block/wood/step1",
+        "sounds/block/wood/step2"
+      ]
+    }
+  }
+}

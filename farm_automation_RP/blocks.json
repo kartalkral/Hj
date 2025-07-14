@@ -1,0 +1,7 @@
+{
+  "format_version": "1.21.93",
+  "farm_automation:farm_controller": {
+    "textures": "farm_controller",
+    "sound": "wood"
+  }
+}
