@@ -1,0 +1,17 @@
+tile.farm_automation:farm_controller.name=Farm Controller
+item.farm_automation:farm_controller.name=Farm Controller
+
+## Farm Controller Messages
+farm_automation.controller.connected=§aFarm Controller connected to nearby chests!
+farm_automation.controller.no_chests=§cNo chests found nearby. Place chests within 5 blocks.
+farm_automation.controller.activated=§eFarm Controller activated!
+farm_automation.controller.deactivated=§cFarm Controller deactivated!
+farm_automation.controller.menu_title=Farm Controller Menu
+farm_automation.controller.select_farm=Select Farm Type
+farm_automation.controller.iron_farm=Iron Farm
+farm_automation.controller.emerald_farm=Emerald Farm
+farm_automation.controller.sugar_cane_farm=Sugar Cane Farm
+farm_automation.controller.wheat_farm=Wheat Farm
+farm_automation.controller.mob_farm=Mob Farm
+farm_automation.controller.gold_farm=Gold Farm
+farm_automation.controller.close_menu=Close Menu

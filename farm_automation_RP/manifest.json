@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Universal Farm Automation System - Resource Pack",
+    "name": "Farm Automation Resources",
+    "uuid": "99999999-8888-7777-6666-555555555555",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 93]
+  },
+  "modules": [
+    {
+      "description": "Farm Automation Resource Pack",
+      "type": "resources",
+      "uuid": "44444444-3333-2222-1111-000000000000",
+      "version": [1, 0, 0]
+    }
+  ]
+}

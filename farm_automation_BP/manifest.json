@@ -1,0 +1,35 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Universal Farm Automation System for Minecraft Bedrock",
+    "name": "Farm Automation Addon",
+    "uuid": "12345678-1234-5678-9012-123456789012",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 93]
+  },
+  "modules": [
+    {
+      "description": "Farm Automation Behavior Pack",
+      "type": "data",
+      "uuid": "87654321-4321-8765-2109-876543210987",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "Farm Automation Scripts",
+      "type": "script",
+      "uuid": "11111111-2222-3333-4444-555555555555",
+      "version": [1, 0, 0],
+      "entry": "scripts/server/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.15.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.3.0"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.93",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "farm_automation:farm_controller_recipe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "WWW",
+      "WCW",
+      "WRW"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:oak_planks"
+      },
+      "C": {
+        "item": "minecraft:chest"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "farm_automation:farm_controller",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "format_version": "1.21.93",
+  "minecraft:block": {
+    "description": {
+      "identifier": "farm_automation:farm_controller",
+      "menu_category": {
+        "category": "construction",
+        "group": "itemGroup.name.wood"
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "farm_controller",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:geometry": "geometry.farm_controller",
+      "minecraft:collision_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 16, 16]
+      },
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 16, 16]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2.0
+      },
+      "minecraft:flammable": {
+        "flame_odds": 5,
+        "burn_odds": 10
+      },
+      "minecraft:map_color": "#8B4513",
+      "minecraft:light_emission": 1,
+      "minecraft:on_interact": {
+        "event": "farm_automation:on_interact",
+        "target": "self"
+      },
+      "minecraft:on_placed": {
+        "event": "farm_automation:on_placed"
+      },
+      "minecraft:on_player_destroyed": {
+        "event": "farm_automation:on_destroyed"
+      }
+    },
+    "events": {
+      "farm_automation:on_interact": {
+        "run_command": {
+          "command": "scriptevent farm_automation:interact"
+        }
+      },
+      "farm_automation:on_placed": {
+        "run_command": {
+          "command": "scriptevent farm_automation:placed"
+        }
+      },
+      "farm_automation:on_destroyed": {
+        "run_command": {
+          "command": "scriptevent farm_automation:destroyed"
+        }
+      }
+    }
+  }
+}
